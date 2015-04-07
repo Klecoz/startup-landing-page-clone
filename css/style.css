@@ -4,6 +4,9 @@ body {
 	background-color: LightGray;
 	font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+    font-size: 16px; 
+	color: #838994; 
+	letter-spacing: 0.03em;
 }
 div {
 	border: 1px solid chocolate;
@@ -11,12 +14,13 @@ div {
 
 
 a:visited, a:link {
-	color: #4c5058;
+	color: #838994;
 	text-decoration: none;
 }
 
 a:hover{
 	font-weight: 500;
+	color: #4c5058;
 
 }
 .content {
@@ -51,4 +55,9 @@ a:hover{
 
 .top-navigation .links li{
 	display: inline-block;
+	padding: ;
+}
+
+.logo {
+	padding-top: .85em;
 }
