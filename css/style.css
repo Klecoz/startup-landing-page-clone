@@ -7,14 +7,11 @@ div {
 
 .top-navigation {
 	background-color: #fff;
-	position: fixed;
-	width:100%;
 	border-bottom: 1px solid #DDD;
-	z-index:9999;
 }
 
 .top-navigation > .content {
-	width: 970px;
-	height:70px;
-	margin: 0 auto;
+  	padding: 0 0.938rem;
+ 	margin: 0 auto;
+  	min-width: 37.5rem;
 }
