@@ -1,12 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500);
+
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
 }
 div {
 	border: 1px solid chocolate;
 }
 
 
+a:visited, a:link {
+	color: #4c5058;
+	text-decoration: none;
+}
 
+a:hover{
+	font-weight: 500;
+
+}
 .content {
 	padding: 0 0.938rem;
 	margin: 0 auto;
@@ -37,6 +49,6 @@ div {
 	list-style: none;
 }
 
-.top-navigation .links li {
+.top-navigation .links li{
 	display: inline-block;
 }
