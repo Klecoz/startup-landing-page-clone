@@ -5,13 +5,38 @@ div {
 	border: 1px solid chocolate;
 }
 
+
+
+.content {
+	padding: 0 0.938rem;
+	margin: 0 auto;
+	min-width: 37.5rem;
+	width: 60%;
+}
+
 .top-navigation {
 	background-color: #fff;
 	border-bottom: 1px solid #DDD;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
-  	padding: 0 0.938rem;
- 	margin: 0 auto;
-  	min-width: 37.5rem;
+  	height: 4.375rem;
+}
+
+.top-navigation .links {
+	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+}
+
+.links {
+	list-style: none;
+}
+
+.top-navigation .links li {
+	display: inline-block;
 }
