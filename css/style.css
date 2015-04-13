@@ -107,3 +107,25 @@ button:hover {
   border-color: #cf3d0e;
   cursor: pointer;
 }
+
+
+/* CSS for Section with Icons */
+
+.icons {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+    margin-top: -2em;
+}
+
+.icons > .devices li {
+  width: 33.3333333%;
+  float: left;
+}
+
+.icons h1 {
+  color: #000;
+  font-weight: 300;
+  font-size: 2.75em;
+}
+
