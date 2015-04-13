@@ -54,7 +54,7 @@ a:hover{
   list-style: none;
 }
 
-.top-navigation .links li{
+.top-navigation .links li, .icons li{
   display: inline-block;
   margin-left: 1.563rem;
 }
