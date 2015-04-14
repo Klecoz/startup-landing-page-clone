@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #838994;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
 }
 div {
   border: 1px solid chocolate;
@@ -173,4 +173,15 @@ button:hover {
   border: 1px solid #eaebec;
   margin: 1em .3em;
   padding: .7em .7em;
+}
+
+.social .content ul {
+  margin-top: -1.5em;
+  margin-bottom: -.5em;
+}
+
+.social .content span {
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #838994;
 }
