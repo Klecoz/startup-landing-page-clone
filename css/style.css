@@ -5,16 +5,17 @@ ul {
 }
 
 body {
-  background-color: LightGray;
+  background-color: #FFF;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   color: #838994;
   letter-spacing: 0.02em;
 }
-div {
+
+/* div {
   border: 1px solid chocolate;
-}
+} */
 
 /* CSS for Nav Bar */
 a:visited, a:link {
@@ -176,8 +177,8 @@ button:hover {
 }
 
 .social .content ul {
-  margin-top: -1.5em;
-  margin-bottom: -.5em;
+  padding-top: -1.5em;
+  padding-bottom: -.5em;
 }
 
 .social .content span {
