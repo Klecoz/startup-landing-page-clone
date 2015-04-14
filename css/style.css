@@ -54,7 +54,7 @@ a:hover{
   list-style: none;
 }
 
-.top-navigation .links li, .icons li{
+.top-navigation .links li{
   display: inline-block;
   margin-left: 1.563rem;
 }
@@ -118,14 +118,24 @@ button:hover {
     margin-top: -2em;
 }
 
-.icons > .devices li {
+.icons .content {
+    text-align: center;
+
+}
+
+
+.icons .devices > li {
+  display: inline-block;
   width: 33.3333333%;
   float: left;
+  list-style-type: none;
 }
 
 .icons h1 {
   color: #000;
   font-weight: 300;
   font-size: 2.75em;
+  text-align: center;
 }
+
 
