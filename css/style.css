@@ -40,7 +40,7 @@ a:hover{
 }
 
 .top-navigation > .content {
-	height: 4.375rem;
+  height: 4.375rem;
 }
 
 .top-navigation .links {
@@ -112,14 +112,14 @@ button:hover {
 /* CSS for Section with Icons */
 
 .icons {
-    background-color: #fff;
-    overflow: hidden;
-    padding-bottom: 5rem;
-    margin-top: -2em;
+  background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 5em;
+  margin-top: -2em;
 }
 
 .icons .content {
-    text-align: center;
+  text-align: center;
 
 }
 
@@ -145,3 +145,28 @@ button:hover {
 
 }
 
+/* CSS for Social Footer */
+
+.social {
+  background-color: #FFF;
+  color:#000;
+}
+
+.social h3 {
+  font-weight: 300;
+}
+
+.social .content {
+  text-align: center;
+}
+
+.social .content li{
+  list-style-type: none;
+  border-radius: 1.25em;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  border: 1px solid #eaebec;
+  margin: 1em .3em;
+  padding: .7em .7em;
+}
